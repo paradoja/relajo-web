@@ -1,7 +1,8 @@
 (function() {
   $(function() {
-    var index, mplayer;
+    var container, index, mplayer;
     mplayer = new Mplayer("https://mplayerjs.herokuapp.com");
+    container = $('#epic-buttons').find('.content');
     index = "https://dl.dropboxusercontent.com/s/r7w50sbrugaleqx/index.json?dl=1&token_hash=AAEM6DM-pXTohg0df9dzHxgv4l2V_gDnwRkJ_5dv9OtpNQ";
     return $.get(index, function(data) {
       var json;
@@ -13,7 +14,7 @@
         button.on("click", function() {
           return mplayer.play(item.url);
         });
-        return $("body").append(button);
+        return container.append(button);
       });
     });
   });
