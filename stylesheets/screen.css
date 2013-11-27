@@ -2,7 +2,8 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* line 2, /media/volumes/code/content/relajo-web/source/stylesheets/_mixins.css.scss */
 section {
-  margin-top: 30px; }
+  padding-top: 30px;
+  background-color: #404040; }
   /* line 6, /media/volumes/code/content/relajo-web/source/stylesheets/_mixins.css.scss */
   section .title {
     background-color: #404040;
@@ -257,7 +258,7 @@ footer #footer-content {
 
 /* line 9, /media/volumes/code/content/relajo-web/source/stylesheets/screen.css.scss */
 body {
-  background-color: #404040;
+  background-color: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   color: #cccccc; }
